@@ -1,20 +1,27 @@
+import Link from "next/link";
+
 function Header() {
     return (
     <>
-    <div className="">
-
-    </div>
-        <nav className="fixed z-50 w-screen mt-16 flex justify-center bg-black/75">
-            <div className="">
+    <div className="flex justify-between">
+        <nav className="fixed z-50 w-screen flex justify-between bg-black">
+            <div className="text-white text-2xl font-black font-serif block p-8 w-1/3">
+                The Duke
+            </div>
+            <div className="w-1/3">
                 <ul className="flex z-50 text-xl text-white mx-auto block">
-                    <li><a href="/" className="block p-8 border-x-2 border-white/75">Home</a></li>
-                    <li><a href="/about" className=" block p-8 border-r-2 border-white/75">About</a></li>
-                    <li><a href="/gallery" className="block p-8 border-r-2 border-white/75">Gallery</a></li>
-                    <li><a href="/events" className="block p-8 border-r-2 border-white/75">Events</a></li>
-                    <li><a href="/contact" className=" block p-8 border-r-2 border-white/75">Contact</a></li>
+                    <li><Link href="/" className="block p-8">Home</Link></li>
+                    <li><Link href="/about" className=" block p-8">About</Link></li>
+                    <li><Link href="/gallery" className="block p-8">Gallery</Link></li>
+                    <li><Link href="/events" className="block p-8">Events</Link></li>
+                    <li><Link href="/contact" className=" block p-8">Contact</Link></li>
                 </ul>
             </div>
+            <div className="text-white text-xl block p-8 w-1/3">
+                
+            </div>
         </nav>
+    </div>
     </>
     );
   }

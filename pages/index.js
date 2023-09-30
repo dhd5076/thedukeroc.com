@@ -4,9 +4,11 @@ export default function Home() {
         <div className="h-1/3">
 
         </div>
-        <div className="bg-opacity-100 font-extrabold mx-auto h-1/3 flex items-center justify-center inline">
-            <div className="bg-black/75 h-full items-center flex px-32 border-white/50 border-2">
-            <h1 className="bg-clip-text stroke-white text-9xl bg-[url(/img/gold.jpg)] bg-cover text-transparent"> The Duke </h1>
+        <div className="bg-opacity-100 font-extrabold mx-auto flex inline">
+            <div className="bg-black/75 w-1/3 font-serif space-y-8 h-full items-center px-16 py-16 text-center mx-auto">
+            <h6 className="text-3xl text-white">Your </h6>
+            <h1 className="text-white text-5xl"> Wedding </h1>
+            <h6 className="text-3xl text-white">Venue </h6>
             </div>
         </div>
         <div className="h-1/3 bottom-0 absolute w-full flex">
