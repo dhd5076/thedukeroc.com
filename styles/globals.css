@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Define any additional global styles here */
+body {
+  font-family: 'Your Font', sans-serif;
+}
+
+/* Example of a Custom Class for the Gold Color */
+.text-gold {
+  color: #FFD700;
+}
