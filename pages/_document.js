@@ -5,7 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head />
-        <body>
+        <body className="bg-center bg-fixed bg-cover" style={{ backgroundImage: 'url(/bg.jpg)' }}>
           <Main />
           <NextScript />
         </body>

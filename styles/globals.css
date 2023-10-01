@@ -11,3 +11,25 @@ body {
 .text-gold {
   color: #FFD700;
 }
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+@font-face {
+    font-family: 'UrbanJungle';
+    src: url("urbanjungle.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'ban';
+    src: url("/Banquette.ttf")
+}
+
+.font-punk {
+    font-family: 'ban';
+    /* Add any other styles you want for elements with this class */
+  }
+.font-vibes {
+    font-family: 'UrbanJungle';
+}
