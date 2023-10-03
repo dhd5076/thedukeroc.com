@@ -10,12 +10,12 @@ export default function Home() {
 
   return (
     <>
-    <div className="h-screen bg-black/75">
-      <div className="w-full pt-48">
+    <div className="">
+      <div className="w-full h-screen mt-auto flex flex-col justify-center items-center">
         <div
-          className={`bg-blend-saturation overflow-hidden w-full duration-1000 font-serif h-full mr-auto transition-opacity`}
+          className={`w-full duration-1000 font-serif `}
         >
-          <h6 className="text-8xl transition-all duration-300 flex justify-center text-center text-white">
+          <h6 className="transition-all duration-300 flex justify-center text-center text-white">
             <span className={`w-full inline-block opacity-${loaded ? '100' : '0'}`}>
               <TextFader></TextFader>
             </span>{" "}
@@ -23,7 +23,7 @@ export default function Home() {
         </div>
       </div>
     </div>
-    <div className="h-[]">
+    <div className="h-[100vh] bg-black/90">
 
     </div>
     </>
